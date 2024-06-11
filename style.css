@@ -413,6 +413,30 @@ body {
     width: 90%;
     margin: 3rem auto;
 
+    .links {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+
+      .list {
+        display: flex;
+        gap: 5rem;
+        margin-right: 1rem;
+
+        ul {
+          margin-right: 0.8rem;
+          margin-top: 0.3rem;
+          list-style: none;
+        }
+      }
+
+      .social {
+        display: flex;
+        gap: 0.5rem;
+        margin-left: 1rem;
+      }
+    }
+
     .newsletter {
       display: flex;
       align-items: center;
@@ -460,30 +484,6 @@ body {
         button:hover {
           background-color: var(--secondary);
         }
-      }
-    }
-
-    .links {
-      margin-top: 2rem;
-      display: flex;
-      justify-content: space-between;
-
-      .list {
-        display: flex;
-        gap: 5rem;
-        margin-right: 1rem;
-
-        ul {
-          margin-right: 0.8rem;
-          margin-top: 0.3rem;
-          list-style: none;
-        }
-      }
-
-      .social {
-        display: flex;
-        gap: 0.5rem;
-        margin-left: 1rem;
       }
     }
 
